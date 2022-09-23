@@ -48,7 +48,7 @@ function renderGame() {
     } else if (sum <= 20) {
         message = "Do you want draw a new card?"
     } else {
-        message = "You lost O JOGO"
+        message = "You lost the game"
         isAlive = false
     }
     message_El.textContent = message
