@@ -13,7 +13,7 @@ function getRandomCard(){
         hasAce = true
         message = "You've got an ACE"
         message_El.textContent = message
-        let AceOF = window.prompt("Entre com o Valor do AS", "")
+        let AceOF = Number.parseInt(window.prompt("Entre com o Valor do AS: "))
         return AceOF
     } else {
         return randomNumber
