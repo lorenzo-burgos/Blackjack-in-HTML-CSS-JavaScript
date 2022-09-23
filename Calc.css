@@ -1,0 +1,23 @@
+*{
+    text-align: center;
+    background-color: darkgreen;
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-weight: bold;
+    font-style: italic;
+}
+h1{
+    color: goldenrod;
+}
+button{
+    background-color: goldenrod;
+    color: darkgreen;
+    width: 150px;
+    height: 80px;
+    border-radius: 3px;
+    padding: 5px 5px 5px 5px;
+    font-weight: bolder;
+    border: none;
+    font-size: larger;
+    margin-bottom: 4px;
+}
